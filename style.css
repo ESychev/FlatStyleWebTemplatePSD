@@ -1,0 +1,291 @@
+.header{
+    width: 100%;
+    height: 496px;
+    background-color: #f74c55;
+    background-image: url('./header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color: white;
+    font-family: 'Comic Sans', sans-serif;
+}
+body{
+    margin: 0;
+}
+.menu{
+    width: 100%;
+    height: 80px;
+    border: 1px solid yellow;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+}
+
+.menu-content{
+    border: 1px solid blue;
+    height: 100%;
+    width: 1024px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.menu-item{
+      list-style-type: none; /* убираем точки*/
+      text-transform: uppercase; /* все буквы большие*/
+      display: inline-block;
+      margin-right: 14px;
+      cursor: pointer;
+      border: 1px solid transparent;
+      padding: 5px 10px; 
+      -webkit-transition: 0.3s; 
+      transition: 0.3s;
+      
+
+
+    }
+    .menu-item:hover{
+        border: 1px solid white;
+        border-radius: 5px;
+        -webkit-box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.8);
+                box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.8);
+
+    }
+
+    .title-group{
+        width: 270px;
+        height: 140px;
+        margin-left: 695px;
+        margin-top: 140px;
+    }
+    .title{
+        font-weight: 100;
+        margin: 0;
+        font-size: 35px;
+    }
+    .text{
+        margin-top: 13px;
+        margin-bottom: 26px;
+        display: block;
+        font-size:13px;
+    }
+    .title-button{
+        border: 2px solid white;
+        border-radius: 8px;
+        width: 155px;
+        height: 45px;
+        font-size: 22px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        cursor: pointer;
+        -webkit-transition: .4s;
+        transition: .4s;
+        -webkit-box-shadow: 10px 10px 15px 0 rgba(255, 255, 255, .8);
+                box-shadow: 10px 10px 15px 0 rgba(255, 255, 255, .8)
+
+    }
+    .title-button:hover{
+        background-color: white;
+        color: #f74c55;
+        margin: 5px;
+        -webkit-box-shadow: 5px 5px 15px 0 rgba(255, 255, 255, .5);
+                box-shadow: 5px 5px 15px 0 rgba(255, 255, 255, .5)
+    }
+    .middle{
+        height: 450px;
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+
+    }
+    .middle-content{
+        height: 258px;
+        width: 865px;
+       /* border: 1px solid red;*/
+
+    }
+    .middle-header{
+        margin-top: 0;
+        margin-bottom: 34px;
+        font-weight: 100;/*жирность */
+        font-size: 21px;/*размер шрифта*/
+
+    }
+    .middle-text{
+        margin: 0;
+        font-size: 10px;/*размер шрифта*/
+
+    }
+    .square-group{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 58px;
+ 
+    }
+    .square{
+      width: 36px;
+      height: 32px;
+    }
+    .orange{
+        background-color: #ee732f;
+    }
+    .coral{
+        background-color: #f74c55;
+        
+    }
+    .green{
+        background-color: #2d5f3b;
+    }
+    .gray{
+        background-color: #404040;
+    }
+    .pink{
+        background-color: #fb636b;
+    }
+    .advantages{
+        height: 300px;
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        color: white;
+
+    }
+    .adv-item{
+     height: 100%;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-align: center;
+         -ms-flex-align: center;
+             align-items: center;
+    
+    }
+    .small{
+    width: 26%;
+    padding: 0 49px;
+    }
+    .big{
+     width: 37%;
+    }
+    .right{
+        -webkit-box-pack:end;
+            -ms-flex-pack:end;
+                justify-content:flex-end;
+        padding-right: 45px;
+    }
+    .center{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .left{
+        padding-left: 45px;
+    }
+
+    .adv-item-content{
+        width: 270px;
+        height: 240px;
+        position: relative;
+
+    }
+    .adv-plus{
+        width: 35px;
+        height: 32px;
+        background-color: rgba(0, 0, 0, .5);
+        color: white;
+        font-weight: 900;
+        font-size: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; 
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    .title-center{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+
+    }
+    .adv-img{
+        margin-right: 17px;
+        
+    }
+    .adv-text{
+        font-size: 13px;
+        line-height: 30px;
+    }
+    .overlay{
+     width: 100%;
+     height: 500px;
+     background-image: url('./zav11.jpg');
+     background-size: cover; /*размеры картинки ковер оборачивает всю картинку задним фоном */
+     background-repeat: no-repeat;
+     background-position: center;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     flex-direction: column;
+     display: flex;
+    }
+    
+    .overlay-title{
+        width: 552px;
+        font-size: 33px;
+        text-align: center;
+    }
+    
+    .title-bold{
+        font-weight: bold;
+    }
+    .overlay-button{
+        width: 182px;
+        height: 45px;
+        border: 2px solid white;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        margin-top: 48px;
+        transition: .3s;
+
+    }
+    .overlay-button:hover{
+      box-shadow: 0 0 15px 0 rgba(255, 255, 255, .6);
+    }
